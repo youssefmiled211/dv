@@ -1,14 +1,11 @@
 <?php
- $jour=$_POST["jour"];
- $mois=$_POST["mois"];
- $annes=$_POST["annes"];
+ $date=$_POST["date"];
  $expediteur=$_POST["expediteur"];
  $destinataire=$_POST["destinataire"];
  $depart=$_POST["depart"];
  $arrivee=$_POST["arrivee"];
  $poids=$_POST["poids"];
  $express=$_POST["arrivee"];
- $date=$jour."/".$mois."/".$annes;
  require("config.php");
  $conn=mysqli_connect($bd,$serveur,$username,$password) ;
  $sql="select * from livrison where $depart!= $arrivee ;";
