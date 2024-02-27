@@ -9,7 +9,7 @@
 <body>
     <form action="livraison.php" method="post" name="f1">
         
-        <label for="">Date:</label><input type="text" name="jour" id="jour">/<input type="text" name="mois" id="mois">/<input type="text" name="annes" id="annees"><br>
+        <label for="">Date:</label><input type="date" name="date" id="date"><br>
         <label for="">Expediteur:</label><input type="text" name="expediteur" id="expediteur">
         <label for="">Destinataire:</label><input type="text" name="destinataire" id="destinataire"> <br>
         <label for="">De:</label><select name="depart" id="depart">
